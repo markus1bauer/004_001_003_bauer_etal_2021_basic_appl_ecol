@@ -1,6 +1,6 @@
 # Multifunctionality of dike grasslands
 
-_Markus Bauer, Leonardo H. Teixeira, Michaela Moosner, and Johannes Kollmann_  
+_Leonardo H. Teixeira, Markus Bauer, Michaela Moosner, and Johannes Kollmann_  
     
 ***
 
@@ -46,7 +46,7 @@ Contact markus1.bauer@tum.de for any further information.
 
 **Citation:**
 
-> Bauer M, Teixeira LH, Moosner M, Kollmann, J (202x). XXX. XX, XXX-XXX. https://doi.org/10.xxx
+> Teixeira LH, Bauer M, Moosner M, Kollmann, J (202x). XXX. XX, XXX-XXX. https://doi.org/10.xxx
 
 ***
 
