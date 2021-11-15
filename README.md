@@ -43,7 +43,7 @@ Contact markus1.bauer@tum.de for any further information.
 
 **Citation:**
 
-> Teixeira LH, Bauer M, Moosner M, Kollmann J (submitted) https://doi.org/10.xxx
+> Teixeira LH, Bauer M, Moosner M, Kollmann J (submitted) Multifunctionality of dike grasslands: Trade-offs between flood protection, biodiversity, recreation and management. https://doi.org/10.xxx
 
 ***
 
