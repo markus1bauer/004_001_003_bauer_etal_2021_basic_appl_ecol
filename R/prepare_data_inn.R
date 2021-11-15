@@ -1,5 +1,5 @@
 # Multifunctionality of dike grasslands 
-# Prepare data of river Danube datatset
+# Prepare data of river Inn datatset
 # Markus Bauer
 # 2021-11-12
 # Citation: 
@@ -25,7 +25,7 @@ rm(list = ls())
 setwd(here("data/raw"))
 
 ### Load data ###
-sites <- read_csv("data_raw_danube.csv", col_names = T, na = c("na", "NA"), col_types = 
+flowers <- read_csv2("data_raw_inn.csv", col_names = T, na = c("na", "NA", ""), col_types = 
                     cols(
                       .default = "?"
                     ))
@@ -37,10 +37,9 @@ sites <- read_csv("data_raw_danube.csv", col_names = T, na = c("na", "NA"), col_
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-sites <- sites %>%
-  mutate(surveyYearF = factor(surveyYear),
-         botanist = str_replace_all(botanist, " ", "_"),
-         botanistYear = str_c(botanist, surveyYear))
+flowers <- flowers %>%
+  mutate(prop.flow.spec = numb.flow.spec / numb.spec * 100,
+         prop.flow.spec = round(prop.flow.spec, digits = 4))
 
 
 
@@ -49,6 +48,6 @@ sites <- sites %>%
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-write_csv(sites, here("data/processed/data_processed_danube.csv"))
+write_csv(flowers, here("data/processed/data_processed_inn.csv"))
 
 
