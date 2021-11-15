@@ -3,7 +3,7 @@
 # Michaela Moosner
 # 2021-11-12
 # Citation: 
-## Bauer M, Teixeira LH, Moosner M, Kollmann J (2021) 
+## Teixeira LH, Bauer M, Moosner M, Kollmann J (submitted) 
 ## Multifunctionality of dike grasslands: Trade-offs between flood protection, biodiversity, recreation and management. 
 ## unpublished data.
 

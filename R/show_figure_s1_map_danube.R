@@ -1,5 +1,11 @@
-# Show map of the Danube dike experiment ####
+# Multifunctionality of dike grasslands 
+# Show figure with map of the experiment at river Danube
 # Markus Bauer
+# 2021-11-12
+# Citation: 
+## Teixeira LH, Bauer M, Moosner M, Kollmann J (submitted) 
+## Multifunctionality of dike grasslands: Trade-offs between flood protection, biodiversity, recreation and management. 
+## unpublished data.
 
 
 
