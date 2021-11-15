@@ -14,15 +14,12 @@ _Leonardo H. Teixeira <a href="https://orcid.org/0000-0001-7443-087X"><img src="
 
 1. __Data__: the folder `data` contains  
     * The raw and processed data files of the Danube experiments and the Inn surveys with the dependent metadata files (.csv) 
-
-2. __Images__: the folder `images` contains 
-    * The images of the grain size distribution (.tiff)
     
-3. __Outputs__: the folder `outputs` contains  
+2. __Outputs__: the folder `outputs` contains  
     * The figures (.tiff) generated.
-    * The statistic tables (.csv) generated.
+    * The ANOVA tables (.csv) generated.
     
-4. __R__: the folder `R` contains  
+3. __R__: the folder `R` contains  
     * Scripts (.R) to generate all figures used in the manuscript and in the supporting information.
     
 ***
