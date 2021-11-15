@@ -1,7 +1,7 @@
 # Multifunctionality of dike grasslands
 
-_Markus Bauer, Leonardo H. Teixeira, Michaela Moosner, and Johannes Kollmann_  
-    
+_Leonardo H. Teixeira <a href="https://orcid.org/0000-0001-7443-087X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height = "16"></a>, Markus Bauer <a href="https://orcid.org/0000-0001-5372-4174"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height = "16"></a>, Michaela Moosner, and Johannes Kollmann <a href="https://orcid.org/0000-0002-4990-3636"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height = "16"></a>_  
+
 ***
 
 **Journal**: [XXX](https://www.???.??)
@@ -14,15 +14,12 @@ _Markus Bauer, Leonardo H. Teixeira, Michaela Moosner, and Johannes Kollmann_
 
 1. __Data__: the folder `data` contains  
     * The raw and processed data files of the Danube experiments and the Inn surveys with the dependent metadata files (.csv) 
-
-2. __Images__: the folder `images` contains 
-    * The images of the grain size distribution (.tiff)
     
-3. __Outputs__: the folder `outputs` contains  
+2. __Outputs__: the folder `outputs` contains  
     * The figures (.tiff) generated.
-    * The statistic tables (.csv) generated.
+    * The ANOVA tables (.csv) generated.
     
-4. __R__: the folder `R` contains  
+3. __R__: the folder `R` contains  
     * Scripts (.R) to generate all figures used in the manuscript and in the supporting information.
     
 ***
@@ -46,7 +43,7 @@ Contact markus1.bauer@tum.de for any further information.
 
 **Citation:**
 
-> Bauer M, Teixeira LH, Moosner M, Kollmann, J (202x). XXX. XX, XXX-XXX. https://doi.org/10.xxx
+> Teixeira LH, Bauer M, Moosner M, Kollmann J (submitted) Multifunctionality of dike grasslands: Trade-offs between flood protection, biodiversity, recreation and management. https://doi.org/10.xxx
 
 ***
 
