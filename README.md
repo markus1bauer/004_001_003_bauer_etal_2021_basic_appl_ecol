@@ -1,7 +1,7 @@
 # Multifunctionality of dike grasslands
 
-_Leonardo H. Teixeira[![ORCID iD](https://orcid.org/0000-0001-7443-087X)], Markus Bauer [![ORCID iD](https://orcid.org/0000-0001-5372-4174)], Michaela Moosner, and Johannes Kollmann [![ORCID iD](https://orcid.org/0000-0002-4990-3636)]_  
-    
+_Leonardo H. Teixeira <a href="https://orcid.org/0000-0001-7443-087X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height = "16"></a>, Markus Bauer <a href="https://orcid.org/0000-0001-5372-4174"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height = "16"></a>, Michaela Moosner, and Johannes Kollmann <a href="https://orcid.org/0000-0002-4990-3636"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height = "16"></a>_  
+
 ***
 
 **Journal**: [XXX](https://www.???.??)
