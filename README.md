@@ -46,7 +46,7 @@ Contact markus1.bauer@tum.de for any further information.
 
 **Citation:**
 
-> Teixeira LH, Bauer M, Moosner M, Kollmann, J (202x). XXX. XX, XXX-XXX. https://doi.org/10.xxx
+> Teixeira LH, Bauer M, Moosner M, Kollmann J (202x). XXX. XX, XXX-XXX. https://doi.org/10.xxx
 
 ***
 
