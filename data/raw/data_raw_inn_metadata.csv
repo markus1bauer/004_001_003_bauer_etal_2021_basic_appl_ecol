@@ -1,0 +1,9 @@
+attributeName;attributeDefinition;formatString;definition;unit;numberType;type;factor
+plot;ID of the plot;NA;"""area_plot number within area""";NA;NA;character;NA
+area;ID of the area;NA;2,5,7,8,9,11;NA;NA;character;NA
+subplot;ID of the subplot for flower investigations: three 1 m² subplots in each plot;NA;"""plot_subplot number within plot""";NA;NA;character;NA
+treatment;cutting time;NA;early: mid June, late: mid September;NA;NA;character;NA
+numb.flow.spec;number of flowering plant species;NA;NA;number;integer;numeric;NA
+numb.spec;number of species;NA;NA;number;integer;numeric;NA
+flow.cov;estimated flowercover;NA;NA;square centimeters;integer;numeric;NA
+month;time of data collection (always in the beginning of the month);NA;NA;NA;NA;factor;May, June, July, August, September
