@@ -50,13 +50,12 @@ unitList <- set_unitList(custom_units)
 
 ### a data_raw_sites  -------------------------------------------------------------------------------------------
 setwd(here("data/raw"))
-attributes <- read_csv("data_raw_sites_metadata.csv") %>%
+attributes <- read_csv("data_raw_danube_metadata.csv") %>%
   select(-type, -factor)
 
-col_classes <- read_csv("data_raw_sites_metadata.csv") %>%
-  select(type)
-
-
+col_classes <- read_csv("data_raw_danube_metadata.csv") %>%
+  pull(type)
+  
 side <- c(
   water = "water side of the dike",
   land = "land side of the dike"
@@ -80,10 +79,9 @@ factors <- bind_rows(
   )
 
 attributeList_raw_sites <- set_attributes(attributes, 
-                                            factors, 
-                                            col_classes = col_classes
-                                          )
-)
+                                           factors, 
+                                           col_classes = col_classes)
+
 
 
 physical_raw_sites <- set_physical("data_raw_sites.csv")
@@ -91,7 +89,10 @@ physical_raw_sites <- set_physical("data_raw_sites.csv")
 ### 3 Processed data #####################################################################################
 
 ### a data_processed_sites  -------------------------------------------------------------------------------------------
-attributes <- read_csv("data_processed_sites_metadata.csv")
+attributes <- read_csv("data_raw_danube_metadata.csv")
+
+col_classes <- read_csv("data_raw_danube_metadata.csv") %>%
+  pull(type)
 
 position <- c(
   m = "middle part of the slope",
@@ -109,13 +110,7 @@ factors <- bind_rows(
 
 attributeList_processed_sites <- set_attributes(attributes, 
                                       factors, 
-                                      col_classes = c("character", 
-                                                      "Date", 
-                                                      "factor", 
-                                                      "character",
-                                                      "numeric", 
-                                                      "numeric")
-)
+                                      col_classes = col_classes)
 
 physical_processed_sites <- set_physical("data_raw_sites.csv")
 
@@ -124,7 +119,7 @@ physical_processed_sites <- set_physical("data_raw_sites.csv")
 
 dataTable <- list(
   list(
-    entityName = "data_raw_sites.csv",
+    entityName = "data_raw_danube.csv",
     entityDescription = "environmental raw data of the sites",
     #physical = physical_raw_sites,
     attributeList = attributeList_raw_sites
@@ -215,7 +210,7 @@ coverage <- set_coverage(
 
 pubDate = "2022"
 
-title = "Danube old dikes"
+title = "Danube dike surveys between Straubing and Vilshofen"
 
 abstract <- "Not written yet"
 
@@ -267,8 +262,8 @@ eml <- list(
   )
 
 setwd(here())
-write_eml(eml, "METADATA.xml")
-eml_validate("METADATA.xml")
+write_eml(eml, "METADATA_danube.xml")
+eml_validate("METADATA_danube.xml")
 
-render_eml("METADATA.xml", open = T, outfile = "METADATA.html", publish_mode = F)
+render_eml("METADATA_danube.xml", open = T, outfile = "METADATA_danube.html", publish_mode = F)
 

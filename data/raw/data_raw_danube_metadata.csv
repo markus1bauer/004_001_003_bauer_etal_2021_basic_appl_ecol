@@ -7,12 +7,12 @@ exposition,exposition of the plots,NA,NA,NA,NA,factor,north;south
 side,on which side is the plot on the dike,NA,NA,NA,NA,factor,water;land
 substrateType,type of substrate (combination of sandRatio and substrate Depth),NA,NA,NA,NA,factor,1;2;3;4;5;6
 seedmixType,there existed two types of hay meadow mixtures and two of dry grassland mixtures,NA,NA,NA,NA,factor,1;2;3;4
-surveyYear,year of the survey,YYYY,NA,NA,NA,date,NA
+surveyYear,year of the survey,YYYY,NA,NA,NA,Date,NA
 botanist,botanists for surveys,NA,botanist for surveys,NA,NA,character,NA
 vegetationCov,total vegetation coverage,NA,NA,percent,integer,numeric,NA
 bioMass,total fresh biomass (accumulated value of three subsamples),NA,NA,gram,real,numeric,NA
 id,ID of the plot unique for each year,NA,ID of the plot unique for each year,NA,NA,character,NA
-conf.low,dummy variable for plotting,NA,NA,NA,integer,numeric,NA
-conf.high,dummy variable for plotting,NA,NA,NA,integer,numeric,NA
+conf.low,dummy variable for plotting,NA,NA,dimensionless,integer,numeric,NA
+conf.high,dummy variable for plotting,NA,NA,dimensionless,integer,numeric,NA
 graminoidCov,accumulated cover of all graminoid species per plot,NA,NA,percent,real,numeric,NA
 shannon,Shannon diversity index,NA,NA,NA,real,numeric,NA
